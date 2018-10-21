@@ -1,0 +1,40 @@
+/*contains all images */
+.imageContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/*contains logo + header text */
+.headerContainer{
+  width: 100%;
+  display: flex;
+}
+
+.logo{
+  width: 100px;
+}
+
+
+.logo img{
+  flex-shrink: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+
+.box{
+  padding: 5px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box img{
+  flex-shrink: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
